@@ -1,14 +1,14 @@
 ## Project Overview
 A comprehensive data analytics project demonstrating end-to-end data warehouse implementation and business intelligence analysis using SQL Server. This project showcases dimensional modeling, exploratory data analysis, and advanced SQL techniques for business insights.
 
-## 🎯 Project Objectives
+## Project Objectives
 - Build a star schema data warehouse with fact and dimension tables
 - Perform comprehensive business intelligence analysis
 - Create customer and product performance reports
 - Demonstrate advanced SQL analytical functions
 - Generate actionable business insights from sales data
 
-## 🏗️ Data Architecture
+## Data Architecture
 
 ### Database Schema
 - **Database**: `DataWarehouseAnalytics`
@@ -16,15 +16,15 @@ A comprehensive data analytics project demonstrating end-to-end data warehouse i
 
 ### Tables Structure
 ```sql
-📊 Fact Table:
+Fact Table:
 - fact_sales (order_number, product_key, customer_key, dates, sales_amount, quantity, price)
 
-📋 Dimension Tables:
+Dimension Tables:
 - dim_customers (customer demographics and details)
 - dim_products (product catalog with categories and costs)
 ```
 
-## 📈 Analysis Categories
+## Analysis Categories
 
 ### 1. **Exploratory Data Analysis (EDA)**
 - Data profiling and quality assessment
@@ -68,7 +68,7 @@ A comprehensive data analytics project demonstrating end-to-end data warehouse i
 - Age group categorization
 - Performance-based groupings
 
-## 📊 Business Intelligence Reports
+## Business Intelligence Reports
 
 ### Customer Analytics Report
 **Key Metrics:**
@@ -87,7 +87,7 @@ A comprehensive data analytics project demonstrating end-to-end data warehouse i
 - Product lifecycle analysis
 - Category and subcategory performance
 
-## 🔧 Technical Implementation
+## Technical Implementation
 
 ### Advanced SQL Techniques Used:
 - **Window Functions**: ROW_NUMBER(), RANK(), LAG(), LEAD()
@@ -103,7 +103,7 @@ A comprehensive data analytics project demonstrating end-to-end data warehouse i
 - Data validation and cleanup procedures
 - Truncate and reload patterns
 
-## 📋 Key Business Insights
+## Key Business Insights
 
 1. **Revenue Concentration**: Bikes category generates majority of revenue
 2. **Geographic Distribution**: US market shows highest item sales volume
@@ -112,7 +112,7 @@ A comprehensive data analytics project demonstrating end-to-end data warehouse i
 5. **Seasonal Trends**: Monthly and yearly sales pattern analysis
 6. **Customer Behavior**: Purchase frequency and value patterns
 
-## 🎯 Skills Demonstrated
+## Skills Demonstrated
 
 - **Data Warehousing**: Dimensional modeling, ETL processes
 - **SQL Mastery**: Advanced functions, optimization, complex queries
@@ -120,7 +120,7 @@ A comprehensive data analytics project demonstrating end-to-end data warehouse i
 - **Data Analysis**: Statistical analysis, trend identification
 - **Performance Tuning**: Query optimization, indexing strategies
 
-## 📊 Sample Queries
+## Sample Queries
 
 ### Top 5 Revenue Generating Products
 ```sql
@@ -143,7 +143,7 @@ GROUP BY customer_segment
 ORDER BY total_customers DESC;
 ```
 
-## 🔮 Future Enhancements
+## Future Enhancements
 
 - **Data Visualization**: Power BI/Tableau integration
 - **Automated ETL**: SSIS package development
@@ -152,8 +152,8 @@ ORDER BY total_customers DESC;
 - **API Development**: RESTful services for data access
 
 ## 📧 Contact
-[Purab Gupta] - [purabgupta988@gmail.com]
-Project Link: [https://github.com/Purab2207/SQL-Data-Warehouse---Business-Analaysis/tree/main]
+Priyansh Gupta - [priyanshgupta2407@gmail.com]
+Project Link: [https://github.com/priyansh-2407/SQL-Data-Warehouse---Business-Analysis]
 
 ---
 *This project demonstrates practical application of SQL for business intelligence and data analytics in a real-world scenario.*
